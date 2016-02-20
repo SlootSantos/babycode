@@ -47,6 +47,9 @@ angular
         templateUrl: 'views/f5.html',
         controller: 'Quiz4Ctrl'
       })
+      .when('/final', {
+        templateUrl: 'views/final.html'
+      })
       .otherwise({
         redirectTo: '/'
       });

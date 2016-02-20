@@ -17,13 +17,14 @@ angular.module('babycodeApp')
     $scope.evaluate = function () {
       var name = angular.lowercase($scope.name);
 
-      if (name === 'flo') {
-        alert(name);
+      if (name === 'airbnb') {
+          alert('Geht dooch :* ');
+        refresh();
+        window.location = '/#/f2';
+
       }else {
-        alert('wrong');
+        alert('naja fast ne..');
       }
-      refresh();
-      window.location = '/#/f2';
     };
   });
 
@@ -38,13 +39,15 @@ angular.module('babycodeApp')
     $scope.evaluate = function () {
       var name = angular.lowercase($scope.name);
 
-      if (name === 'flo') {
-        alert(name);
+      if (name === 'tickets') {
+          alert('ohaaaa');
+        refresh();
+        window.location = '/#/f3';
+
       }else {
-        alert('wrong');
+        alert('Knapp daneben is auch vorbei baby...');
       }
-      refresh();
-      window.location = '/#/f3';
+
     };
   });
 
@@ -59,33 +62,21 @@ angular.module('babycodeApp')
       $scope.evaluate = function () {
         var name = angular.lowercase($scope.name);
 
-        if (name === 'flo') {
-          alert(name);
+        if (name === 'paris') {
+          alert('Du alter Fuchs!!');
+          refresh();
+          window.location = '/#/f4';
         }else {
-          alert('wrong');
+          alert('WELCHE STADT IS DAS UHM??');
         }
-        refresh();
-        window.location = '/#/f4';
       };
     });
 
 
     angular.module('babycodeApp')
       .controller('Quiz4Ctrl', function ($scope) {
-        var refresh = function() {
-          $scope.name = "";
-        };
-        refresh();
 
         $scope.evaluate = function () {
-          var name = angular.lowercase($scope.name);
-
-          if (name === 'flo') {
-            alert(name);
-          }else {
-            alert('wrong');
-          }
-          refresh();
-          window.location = '/#/f1';
+          window.location = '/#/final';
         };
       });
