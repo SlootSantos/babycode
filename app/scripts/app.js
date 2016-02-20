@@ -43,6 +43,10 @@ angular
         templateUrl: 'views/f4.html',
         controller: 'Quiz4Ctrl'
       })
+      .when('/f5', {
+        templateUrl: 'views/f5.html',
+        controller: 'Quiz4Ctrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
