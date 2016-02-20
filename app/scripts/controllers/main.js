@@ -9,20 +9,11 @@
  */
 angular.module('babycodeApp')
   .controller('MainCtrl', function ($scope) {
-    var refresh = function() {
-      $scope.name = "";
+
+    $scope.go = function () {
+      window.location = '/#/f1';
     };
-    refresh();
-
-    $scope.evaluate = function () {
-      var name = angular.lowercase($scope.name);
-
-      if (name === 'flo') {
-        alert(name);
-      }else {
-        alert('wrong');
-      }
-      refresh();
-      window.location = '/#/about';
+    $scope.no = function () {
+      alert('sag ich ja.. pussy!');
     };
   });
