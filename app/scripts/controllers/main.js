@@ -14,6 +14,6 @@ angular.module('babycodeApp')
       window.location = '/#/f1';
     };
     $scope.no = function () {
-      alert('sag ich ja.. pussy!');
+      window.alert('sag ich ja.. pussy!');
     };
   });
