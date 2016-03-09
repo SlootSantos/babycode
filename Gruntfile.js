@@ -269,7 +269,7 @@ module.exports = function (grunt) {
     //   dist: {}
     // },
 
-    imagemin: {
+    /*imagemin: {
       dist: {
         files: [{
           expand: true,
@@ -278,7 +278,7 @@ module.exports = function (grunt) {
           dest: '<%= yeoman.dist %>/images'
         }]
       }
-    },
+    },*/
 
     svgmin: {
       dist: {
