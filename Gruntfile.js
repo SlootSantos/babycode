@@ -393,7 +393,7 @@ module.exports = function (grunt) {
       'wiredep',
       'concurrent:server',
       'autoprefixer:server',
-      'connect:livereload',
+      'connect:app',
       'watch'
     ]);
   });
