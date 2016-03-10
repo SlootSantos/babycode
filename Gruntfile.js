@@ -75,7 +75,7 @@ module.exports = function (grunt) {
       app: {
         options: {
           open: true,
-          base: '<%= yeoman.app %>'
+          base: '<%= yeoman.babycode %>'
         }
       },
       livereload: {
