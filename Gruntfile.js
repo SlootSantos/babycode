@@ -79,7 +79,7 @@ module.exports = function (grunt) {
               serveStatic('.tmp'),
               connect().use('/bower_components',
               serveStatic('./bower_components')),
-              serveStatic(config.app)
+              serveStatic(appConfig.app)
             ];
           }
         }
