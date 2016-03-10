@@ -72,12 +72,6 @@ module.exports = function (grunt) {
         hostname: '46.101.246.108',
         livereload: 35729
       },
-      app: {
-        options: {
-          open: true,
-          base: '/'
-        }
-      },
       livereload: {
         options: {
           open: true,
@@ -399,7 +393,7 @@ module.exports = function (grunt) {
       'wiredep',
       'concurrent:server',
       'autoprefixer:server',
-      'connect:app',
+      'connect:livereload',
       'watch'
     ]);
   });
